@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JsonToListView", "JsonToListView\JsonToListView.csproj", "{ACE1C840-28A8-443D-9EAB-8C8FFE638081}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JsonToListView.Droid", "Droid\JsonToListView.Droid.csproj", "{CFAE8393-4F8F-4F7D-A02A-F31905B91F52}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JsonToListView.UITests", "UITests\JsonToListView.UITests.csproj", "{A90A30AB-930F-4E1C-8714-4A771F7AF83E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A90A30AB-930F-4E1C-8714-4A771F7AF83E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A90A30AB-930F-4E1C-8714-4A771F7AF83E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A90A30AB-930F-4E1C-8714-4A771F7AF83E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A90A30AB-930F-4E1C-8714-4A771F7AF83E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACE1C840-28A8-443D-9EAB-8C8FFE638081}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACE1C840-28A8-443D-9EAB-8C8FFE638081}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACE1C840-28A8-443D-9EAB-8C8FFE638081}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACE1C840-28A8-443D-9EAB-8C8FFE638081}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFAE8393-4F8F-4F7D-A02A-F31905B91F52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFAE8393-4F8F-4F7D-A02A-F31905B91F52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFAE8393-4F8F-4F7D-A02A-F31905B91F52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFAE8393-4F8F-4F7D-A02A-F31905B91F52}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
