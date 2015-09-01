@@ -2,17 +2,27 @@
 
 namespace JsonToListView
 {
-	public class Query
+	public class Topic
 	{
-		public Query ()
+		public string FirstURL { get; set; }
+		public string Text { get; set; }
+	}
+
+	public class RelatedTopic
+	{
+		public RelatedTopic ()
 		{
 		}
 
+//		public string Result { get; set; }
+//		public string Icon { get; set; }
+		public string FirstURL { get; set; }
 		public string Text { get; set; }
+		public Topic[] Topics { get; set; }
 	}
 
 	public class RootObject
 	{
-		public Query[] RelatedTopics { get; set; }
+		public RelatedTopic[] RelatedTopics { get; set; }
 	}
 }

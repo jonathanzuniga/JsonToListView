@@ -10,12 +10,12 @@ namespace JsonToListView
 		{
 		}
 
-		public async Task<Query[]> GetQueriesAsync () {
+		public async Task<RelatedTopic[]> GetQueriesAsync () {
 			var client = new System.Net.Http.HttpClient ();
 
 			client.BaseAddress = new Uri("http://api.duckduckgo.com/");
 
-			var response = await client.GetAsync("?q=mexico&format=json&pretty=1");
+			var response = await client.GetAsync("?q=tijuana&format=json&pretty=1");
 			var queriesJson = response.Content.ReadAsStringAsync().Result;
 			var rootObject = JsonConvert.DeserializeObject<RootObject>(queriesJson);
 
